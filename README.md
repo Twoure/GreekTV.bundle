@@ -2,7 +2,7 @@ GreekTV.bundle
 ==============
 
 This is a plugin that creates a new channel in [Plex Media Server](https://plex.tv) to view content from http://greektv.upg.gr
-It is currently under development and as such, should be considered alpha software and potentially unstable.
+The channels are fed from an xml file that is updated every 10 minutes. This makes sure that there are no dead channels at any time.
 
 > **Note:** the author of this plugin has no affiliation with http://greektv.upg.gr nor the owners of the content that they host.
 
