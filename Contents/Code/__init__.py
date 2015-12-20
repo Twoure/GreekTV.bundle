@@ -41,11 +41,11 @@ def MainMenu():
     for node in xml[0][0]:
         title = node.get('title')
         thumb = node.get('hdposterurl')
-        genrel = node.get('genrel')
+        #genrel = node.get('genrel')
         url = node.get('url')
-        ishd = node.get('ishd')
-        bitrate = node.get('bitrate')
-        streamformat = node.get('streamformat')
+        #ishd = node.get('ishd')
+        #bitrate = node.get('bitrate')
+        #streamformat = node.get('streamformat')
         live = node.get('live')
 
         if live == 'true':
@@ -85,8 +85,7 @@ def GetMediaObject(url):
                 PartObject(
                     key=HTTPLiveStreamURL(Callback(PlayVideo, url=url))
                     )
-                ],
-
+                ]
             )
         ]
 
