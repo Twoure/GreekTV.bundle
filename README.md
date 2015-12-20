@@ -1,9 +1,10 @@
 GreekTV.bundle
 ==============
 
-This is a plugin that creates a new channel in [Plex Media Server](https://plex.tv) to view content from [GreekTV](http://greektv.upg.gr/). It is currently under development and as such, should be considered alpha software and potentially unstable.
+This is a plugin that creates a new channel in [Plex Media Server](https://plex.tv) to view content from http://greektv.upg.gr
+It is currently under development and as such, should be considered alpha software and potentially unstable.
 
-> **Note:** the author of this plugin has no affiliation with [LihatTV](http://lihattv.com/) nor the owners of the content that they host.
+> **Note:** the author of this plugin has no affiliation with http://greektv.upg.gr nor the owners of the content that they host.
 
 ## Features
 
