@@ -1,0 +1,8 @@
+[
+  {
+    "id": "debug",
+    "label": "Enable Debug Logging",
+    "type": "bool",
+    "default": "True"
+  }
+]
