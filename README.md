@@ -32,7 +32,7 @@ It is currently under development and as such, should be considered alpha softwa
 
 - Plex Web Client: Must disable Direct Play to make Crossdomain m3u8 streams work, but this breaks the other streams that don't depend on Crossdomains.
 - Chromecast not working yet
-- _Alpha TV_ has a 404 error.  Acess is denied to site.  Maybe it's a regional deal
+- AlphaTV is blocked for the US and some other countries
 - Some streams take some time to load
 
 ## Changelog
