@@ -2,7 +2,7 @@ GreekTV.bundle
 ==============
 
 This is a plugin that creates a new channel in [Plex Media Server](https://plex.tv) to view content from http://greektv.upg.gr
-It is currently under development and as such, should be considered alpha software and potentially unstable.
+The channels are fed from an xml file that is updated every 10 minutes. This makes sure that there are no dead channels at any time.
 
 > **Note:** the author of this plugin has no affiliation with http://greektv.upg.gr nor the owners of the content that they host.
 
@@ -32,7 +32,7 @@ It is currently under development and as such, should be considered alpha softwa
 
 - Plex Web Client: Must disable Direct Play to make Crossdomain m3u8 streams work, but this breaks the other streams that don't depend on Crossdomains.
 - Chromecast not working yet
-- _Alpha TV_ has a 404 error.  Acess is denied to site.  Maybe it's a regional deal
+- AlphaTV is blocked for the US and some other countries
 - Some streams take some time to load
 
 ## Changelog
