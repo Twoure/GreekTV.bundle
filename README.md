@@ -23,7 +23,7 @@ The channels are fed from an xml file that is updated every 10 minutes. This mak
 
 ## How To Install
 
-- [Download](https://github.com/Twoure/GreekTV.bundle/releases) lateset release and install it by following the Plex [instructions](https://support.plex.tv/hc/en-us/articles/201187656-How-do-I-manually-install-a-channel-) or the instructions below.
+- [Download](https://github.com/Twoure/GreekTV.bundle/releases) latest release and install it by following the Plex [instructions](https://support.plex.tv/hc/en-us/articles/201187656-How-do-I-manually-install-a-channel-) or the instructions below.
   - Unzip and rename the folder to "GreekTV.bundle"
   - Copy GreekTV.bundle into the PMS [Plug-ins](https://support.plex.tv/hc/en-us/articles/201106098-How-do-I-find-the-Plug-Ins-folder-) directory
   - ~~Restart PMS~~ **This is old, should not have to restart PMS.  If channel does not appear then Restart PMS**
