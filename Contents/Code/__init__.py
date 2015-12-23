@@ -3,7 +3,7 @@
 #                                     GreekTV Plex Channel                                         #
 #                                                                                                  #
 ####################################################################################################
-#from updater import Updater  #uncomment when ready to add updater
+from updater import Updater  #uncomment when ready to add updater
 
 # set global variables
 TITLE = L('title')
@@ -12,29 +12,30 @@ XML_URL = 'http://greektv.upg.gr/api/?type=plex'
 
 # set background art and icon defaults
 ICON = 'icon-default.png'
+ART = 'art-default.jpg'
 
 ####################################################################################################
 def Start():
     HTTP.CacheTime = 0
 
     ObjectContainer.title1 = TITLE
-    #ObjectContainer.art = R(ART)
+    ObjectContainer.art = R(ART)
 
     DirectoryObject.thumb = R(ICON)
-    #DirectoryObject.art = R(ART)
+    DirectoryObject.art = R(ART)
 
     #InputDirectoryObject.art = R(ART)
 
-    #VideoClipObject.art = R(ART)
+    VideoClipObject.art = R(ART)
 
     #ValidatePrefs()
 
 ####################################################################################################
-@handler(PREFIX, TITLE, thumb=ICON)
+@handler(PREFIX, TITLE, thumb=ICON, art=ART)
 def MainMenu():
     oc = ObjectContainer(title2=TITLE, no_cache=True)
 
-    #Updater(PREFIX + '/updater', oc)  #uncomment when ready to add updater
+    Updater(PREFIX + '/updater', oc)  #uncomment when ready to add updater
 
     xml = XML.ElementFromURL(XML_URL)
 
