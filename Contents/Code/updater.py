@@ -60,7 +60,7 @@ class Updater:
                 ),
                 summary=u'%s\n%s' % (L(
                     'updater.install'
-                ), self.update['info']),
+                ), self.update['info'])
             ))
 
     def NormalizeVersion(self, version):
