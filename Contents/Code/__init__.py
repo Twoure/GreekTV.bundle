@@ -3,7 +3,6 @@
 #                                     GreekTV Plex Channel                                         #
 #                                                                                                  #
 ####################################################################################################
-from updater import Updater  #uncomment when ready to add updater
 
 # set global variables
 TITLE = L('title')
@@ -34,8 +33,6 @@ def Start():
 @handler(PREFIX, TITLE, thumb=ICON, art=ART)
 def MainMenu():
     oc = ObjectContainer(title2=TITLE, no_cache=True)
-
-    Updater(PREFIX + '/updater', oc)  #uncomment when ready to add updater
 
     xml = XML.ElementFromURL(XML_URL)
 
