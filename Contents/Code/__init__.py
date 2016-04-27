@@ -10,7 +10,7 @@ PREFIX = '/video/greektv'
 XML_URL = 'http://greektv.upg.gr/api/?type=plex'
 
 # set background art and icon defaults
-ICON = 'icon-default.png'
+ICON = 'icon-default.jpg'
 ART = 'art-default.jpg'
 
 ####################################################################################################
