@@ -23,11 +23,7 @@ def Start():
     DirectoryObject.thumb = R(ICON)
     DirectoryObject.art = R(ART)
 
-    #InputDirectoryObject.art = R(ART)
-
     VideoClipObject.art = R(ART)
-
-    #ValidatePrefs()
 
 ####################################################################################################
 @handler(PREFIX, TITLE, thumb=ICON, art=ART)
