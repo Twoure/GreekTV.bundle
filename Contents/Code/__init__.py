@@ -5,7 +5,7 @@
 ####################################################################################################
 
 # set global variables
-TITLE = L('title')
+TITLE = 'GreekTV'
 PREFIX = '/video/greektv'
 XML_URL = 'http://greektv.upg.gr/api/?type=plex'
 
