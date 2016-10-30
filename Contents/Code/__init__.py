@@ -47,9 +47,9 @@ def MainMenu():
         #ishd = node.get('ishd')
         #bitrate = node.get('bitrate')
         #streamformat = node.get('streamformat')
-        live = node.get('live')
+        active = node.get('active')
 
-        if live == 'true':
+        if (active == 'true') or (active == '1'):
             oc.add(
                 CreateVideoClipObject(
                     title=title, thumb=thumb, url=url
@@ -68,7 +68,7 @@ def CreateVideoClipObject(title, thumb, url, include_container=False, *args, **k
         title=title,
         thumb=thumb,
         content_rating='NR',
-        url=url,
+        #url=url,
         items=GetMediaObject(url)
         )
 

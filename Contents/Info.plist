@@ -5,17 +5,13 @@
   <key>CFBundleIdentifier</key>
   <string>com.plexapp.plugins.greektv</string>
   <key>CFBundleVersion</key>
-  <string>1.0.1</string>
+  <string>1.0.2</string>
   <key>PlexPluginVersionUrl</key>
   <string>https://api.github.com/repos/Twoure/GreekTV.bundle/releases/latest</string>
   <key>PlexClientPlatforms</key>
   <string>*</string>
   <key>PlexFrameworkVersion</key>
   <string>2</string>
-  <key>PlexPluginConsoleLogging</key>
-  <string>1</string>
-  <key>PlexPluginDevMode</key>
-  <string>1</string>
   <key>PlexPluginCodePolicy</key>
   <string>Elevated</string>
 </dict>
